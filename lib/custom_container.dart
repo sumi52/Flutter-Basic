@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class MyContainer extends StatelessWidget {
-  double? width ;  //2ta parameter optional
+  double? width ;  
   double? height ;
   VoidCallback? onPressed;
   final Widget child;
@@ -37,10 +37,10 @@ class MyContainer extends StatelessWidget {
             ),
           ],
           gradient: LinearGradient(
-              stops: [0.3, 0.7], //stops e double value nite hoy, evabe double value dile shadow creat hobe
-              colors: [Colors.blue.shade200, Colors.blue], //gradient e oboshoi colors dite hobe
-              begin: Alignment.centerLeft, //gradient ta suru bottomCenter theke
-              end: Alignment.centerRight // gratient sesh toCenter theke
+              stops: [0.3, 0.7], 
+              colors: [Colors.blue.shade200, Colors.blue], 
+              begin: Alignment.centerLeft, 
+              end: Alignment.centerRight 
           ),
         ),
       ),
